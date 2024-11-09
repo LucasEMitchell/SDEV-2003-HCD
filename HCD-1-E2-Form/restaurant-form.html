@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <audio loop controls>
+      <source
+        src=" https://cdn.freesound.org/previews/633/633052_12333864-lq.mp3"
+        type="audio/ogg"
+      />
+    </audio>
+    <form>
+      <div>
+        <input type="text" id="username" name="username" required minimum="2" />
+        <label for="username">Username</label>
+      </div>
+      <div>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          minimum="6"
+        />
+        <label for="password">Password</label>
+      </div>
+      <div>
+        <input type="email" id="email" name="email" required />
+        <label for="email">Email</label>
+      </div>
+      <div>
+        <input type="date" id="date" name="date" required />
+        <label for="date">Date</label>
+      </div>
+      <div>
+        <input
+          type="number"
+          id="people"
+          name="people"
+          required
+          min="1"
+          max="8"
+        />
+        <label for="people">Number of People</label>
+      </div>
+      <div>
+        <label for="policy">I agree to the cancelation policy</label>
+        <input type="checkbox" id="policy" name="policy" required />
+      </div>
+      <div>
+        <label for="rating-options">rating</label>
+        <input
+          type="range"
+          list="rating"
+          id="rating-options"
+          name="rating"
+          min="1"
+          max="5"
+        />
+        <datalist id="rating">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </datalist>
+      </div>
+      <button type="submit">Submit Form</button>
+    </form>
+  </body>
+</html>
