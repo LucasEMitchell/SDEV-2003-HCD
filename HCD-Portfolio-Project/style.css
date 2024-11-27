@@ -1,0 +1,114 @@
+body {
+  background-color: antiquewhite;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-bottom: 50px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-left: 0;
+  border-right: 0;
+}
+nav li {
+  display: inline-block;
+  font-size: 2rem;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+nav li:hover {
+  color: rgb(69, 115, 244);
+}
+.column-elements {
+  display: flex;
+  padding: 30px;
+}
+section {
+  display: flex;
+  border-style: dotted;
+  border-width: 2px;
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+.column-elements div {
+  flex: 1;
+  border-style: solid;
+  border-width: 2px;
+  border-top: 0;
+  border-bottom: 0;
+  padding: 20px;
+}
+footer {
+  display: flex;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-style: solid;
+  border-width: 2px;
+  border-left: 0;
+  border-right: 0;
+}
+footer div {
+  flex: 1;
+}
+div > img {
+  width: 50%;
+}
+button {
+  background-color: antiquewhite;
+  font-size: 3rem;
+  border-style: groove;
+  border-width: 2px;
+  border-color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+button:hover {
+  background-color: rgb(69, 115, 244);
+  color: white;
+}
+.Product {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+.Sale-Product {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 200px;
+}
+.Product-Button {
+  display: block;
+  margin: auto;
+}
+#Middle {
+  border-left: 0;
+  border-right: 0;
+}
