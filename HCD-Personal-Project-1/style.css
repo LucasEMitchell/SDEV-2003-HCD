@@ -1,0 +1,150 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#content {
+  display: flex;
+  max-width: 600px;
+  min-height: 450px;
+}
+
+#column-1 {
+  min-height: 450px;
+  max-width: 300px;
+  overflow: hidden;
+}
+#column-2-background {
+  display: flex;
+  min-height: 450px;
+  max-width: 300px;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+#column-2 {
+  display: flex;
+  justify-content: space-evenly;
+  max-height: 385px;
+  max-width: 240px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  flex-direction: column;
+  align-items: start;
+  overflow: hidden;
+}
+#product-desktop {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  min-height: 450px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  overflow: hidden;
+}
+#perfume {
+  font-family: Montserrat;
+  font-size: 0.7rem;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 5px;
+}
+h1 {
+  font-family: Fraunces;
+  line-height: 1;
+}
+#description {
+  color: hsl(228, 12%, 48%);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+#inline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 200px;
+}
+#inline p {
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+}
+#inline h1 {
+  color: hsl(158, 36%, 37%);
+}
+button {
+  display: flex;
+  border-radius: 7px;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  min-width: 225px;
+  min-height: 40px;
+  border-style: none;
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+#btn {
+  display: flex;
+  justify-content: start;
+  min-width: 200px;
+}
+button img {
+  padding-right: 10px;
+}
+
+@media (max-width: 768px) {
+  #content {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    min-width: 350px;
+    min-height: 450px;
+  }
+  #column-1 {
+    min-height: 150px;
+    max-height: 250px;
+    max-width: 350px;
+  }
+  #product-desktop {
+    display: flex;
+    max-width: 350px;
+    min-height: 450px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+  }
+  #column-2-background {
+    display: flex;
+    min-height: 200px;
+    max-height: 400px;
+    max-width: 400px;
+    background-color: white;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
+  }
+  #column-2 {
+    display: flex;
+    min-height: 200px;
+    max-height: 350px;
+    max-width: 310px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
