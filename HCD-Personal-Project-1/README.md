@@ -1,5 +1,7 @@
 Product Preview Card Component
+
 link to the challenge from Frontend Mentor = https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub
+
 link to my repository for the project = https://github.com/LucasEMitchell/SDEV-2003-HCD
 
 This project was really good at helping me understand how to use flex box better and how to move pieces within it. I actually found it quite challenging to figure out how to center the main content inside the viewport but with some help from the professor was able to get it centered correctly. Overall, the project was a fun one, but one that made me realize how much I need to practice if i want to be able to code these things quickly.
