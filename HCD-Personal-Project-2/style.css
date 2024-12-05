@@ -1,0 +1,47 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(234, 29%, 20%);
+}
+#content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  min-height: 600px;
+  min-width: 850px;
+  border-radius: 30px;
+}
+#left-content {
+  display: flex;
+  min-height: 600px;
+  min-width: 425px;
+  border-style: dashed;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#right-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  max-height: 200px;
+  min-width: 200px;
+  max-width: 380px;
+  justify-content: center;
+  margin-right: 20px;
+}
+#title {
+  font-size: 3rem;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.description {
+  font-family: Roboto;
+}
+.description li {
+  list-style-image: s;
+}
