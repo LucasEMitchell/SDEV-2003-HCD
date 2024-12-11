@@ -50,11 +50,29 @@ let success = document.getElementById("success");
 //    }
 //}
 
-function validation() {
-  content.style.display = "none";
-  success.style.display = "flex";
-}
+//function validation() {
+//  content.style.display = "none";
+//  success.style.display = "flex";
+//}
 function dismiss() {
   content.style.display = "flex";
   success.style.display = "none";
+}
+
+function validation(e) {
+  const patt = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  return e.match(patt);
+}
+
+const goodExample = "example@domain.com";
+const badExample = "example!domain.com";
+
+if (validation(goodExample)) {
+  //console.log(`${goodExample} is a valid email`);
+  content.style.display = "none";
+  success.style.display = "flex";
+}
+
+if (validation(badExample) == null) {
+  console.log(`${badExample} is a not a valid email`);
 }
