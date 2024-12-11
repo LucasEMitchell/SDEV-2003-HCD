@@ -10,24 +10,40 @@
     <header></header>
     <nav></nav>
     <main>
-      <div id="content-container">
+      <div class="content-container" id="content-container">
         <div id="left-content">
           <p id="title">Stay updated!</p>
           <p class="description">
             Join 60,000+ product managers recieving monthly updates on:
           </p>
-          <ul class="description">
+          <ul id="list">
             <li>Product disvobery and building what matters</li>
             <li>Measuring to ensure updates are a success</li>
             <li>And much more!</li>
           </ul>
-          <form action=""></form>
+          <form id="subscribe">
+            <h6>Email address</h6>
+            <input type="email" id="email" placeholder="ash@loremcompany.com" required/>
+            <div>
+            <button onclick="validation()" id="submit" type="submit">Subscribe to monthly newsletter</button>
+          <form>
+        </div>
         </div>
         <div id="right-content">
-          <img src="illustration-sign-up-desktop.svg" alt="" />
+          <img id="img1" src="illustration-sign-up-desktop.svg" alt="" />
+          <img id="img2" src="illustration-sign-up-mobile.svg" alt="">
+        </div>
+      </div>
+      <div class="success" id="success">
+        <img src="icon-success.svg" alt="">
+        <h1>Thanks for subscribing!</h1>
+        <p>A confirmation email has been sent to <b>ash@loremcompany.com.</b> Please open it and click the button inside to confirm your subscription.</p>
+        <div>
+        <button id="close" onclick="dismiss()">Dismiss message</button>
         </div>
       </div>
     </main>
     <footer></footer>
+    <script src="script.js"></script>
   </body>
 </html>
